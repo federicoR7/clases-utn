@@ -5,5 +5,11 @@ body{
     color:red
 }
 #verde{
-    color:green
+    color:rgb(85, 255, 85)
+}
+#verde{
+    background-color: grey;
+}
+#violeta{
+    color:blueviolet
 }
