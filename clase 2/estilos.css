@@ -13,3 +13,8 @@ body{
 #violeta{
     color:blueviolet
 }
+.fuente-de-letras{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
