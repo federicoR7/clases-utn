@@ -1,4 +1,57 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+.menu{
+
+    border: solid 1px rgba(0, 0, 0, 0.575);
+    background-color: rgba(206, 65, 43, 0.836);
+    list-style-type: none;
+    width: 7rem;
+    height: auto;
+}
+.menuAbajo{
+
+    border: solid 1px rgba(0, 0, 0, 0.575);
+    background-color: rgba(206, 65, 43, 0.836);
+    list-style-type: none;
+    width: 8rem;
+    height: auto;
+}
+#fondo{
+    background-color: rgb(104, 104, 104);
+}
+.cajas{
+    margin: 2rem;
+    background-color: rgba(206, 65, 43, 0.836);
+}
+#compra{
+    background-color: rgba(206, 65, 43, 0.836);
+    width: 15%;
+    float: right;
+}
+#imagenCompra{
+    width: 60%;
+}
+#imagenCompra img{
+    width: 100%;
+}
+#cajaPrincipal{
+    width: 70%;
+
+}
+#footer{
+    clear: both;
+}
+#imagenLogo{
+width: 100%;
+}
+#imagenLogo img{
+    width: 50%;
 }
