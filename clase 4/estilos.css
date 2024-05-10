@@ -16,6 +16,7 @@ html{
     "menu menu menu"
     "contenido contenido aside"
     "footer footer footer";
+
 }
 
 #arriba{
@@ -38,18 +39,24 @@ html{
 
 }
 #cajaPrincipal{
-    width: 80%;
+    width: 90%;
+    grid-area: contenido;
+    display: flex;
+    align-items: start;
+
+
 }
 .cajas{
     background-color: rgba(206, 65, 43, 0.836);
-    grid-area: contenido;
-    margin: 2rem;
+    margin: 5rem;
+
 
 }
+
 #compra{
     background-color: rgba(206, 65, 43, 0.836);
-    height: 14rem;
-    width: 14rem;
+    height: 16rem;
+    width: 16rem;
     grid-area: aside;
     display: grid;
     margin: 3rem;
