@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi juego favorito</title>
@@ -9,11 +13,22 @@
 
 <body id="fondo">
 
-    <header id="arriba">
-        <div id="imagenLogo"> 
-            <img src="imagenes/imgbin_logo-brand-number-png.png" alt="logo de Rust">
-        </div>
+    <header id="arriba">  
+        
+            <div id="imagenLogo"> 
+                <img src="imagenes/imgbin_logo-brand-number-png.png" alt="logo de Rust">
+            </div>
+
+            <aside id="compra">    
+                <h5>Compra Rust!</h5>
+                <div id="imagenCompra">
+                    <img src="imagenes/imgbin_steam-link-computer-icons-logo-png.png" alt="logo de Steam">
+                </div>
+                <p><a href="https://store.steampowered.com/app/252490/Rust/">Ir a Steam</a></p>
+            </aside>
+               
     </header>
+
 
     <nav class="menu">
         
@@ -29,38 +44,30 @@
     <main id="cajaPrincipal">
         <section class="cajas">
             <h1>De que trata Rust?</h1>
-            <p>Rust en un juego de supervivencia en linea en el que luchas contra otros jugadores para obtener recursos con los que mejorar tu base, armamento y poder tener una ventaja sobre el enemigo</p>
-            <div>
+            <p>Rust en un juego de supervivencia en linea en el que luchas contra otros jugadores para obtener recursos con los que mejorar tu base, armamento y poder tener una ventaja sobre el enemigo.</p>
+            <div class="sizeImgBox">
                 <img src="imagenes/imagenMundo.jpg" alt="Mundo abierto de Rust">
             </div>
         </section>
         <section class="cajas">
-            <h2>como se juega?</h2>
-            <p>al ser un juego de mundo abierto, con cientas de mecanicas y formas de encarar un objetivo, te da la libertar de practicamente hacer lo que quieras, como quieras, cuando quieras. pero tenes que tener en cuenta que otros jugadores tambien quieren los mismos objetivos que vos, por lo que tendras que luchas contra ellos para hacerte con el objetivo.</p>
-            <div>
+            <h2>Como se juega?</h2>
+            <p>Al ser un juego de mundo abierto, con cientas de mecanicas y formas de encarar un objetivo, te da la libertar de practicamente hacer lo que quieras, como quieras, cuando quieras. pero tenes que tener en cuenta que otros jugadores tambien quieren los mismos objetivos que vos, por lo que tendras que luchas contra ellos para hacerte con el objetivo.</p>
+            <div class="sizeImgBox">
                 <img src="imagenes/imagenEquipos.jpg" alt="Imagen de jugadores">
             </div>
         </section>
         <section class="cajas">
             <h2>Solo o en equipo!</h2>
-            <p>si bien los objetivos suelen ser siempre los mismos, la experiencia de juego puede cambiar completamente si se juega solo o en equipos de hasta 12 personas o mas en algunos casos.<br/>
+            <p>Si bien los objetivos suelen ser siempre los mismos, la experiencia de juego puede cambiar completamente si se juega solo o en equipos de hasta 12 personas o mas en algunos casos.<br/>
             En el caso de jugar <strong>solo</strong> el gameplay se vuelve mucho mas complicado ya que solo se suele tener una oportunidad de ganar un PvP (Player vs Player), casi siempre te vas a cruzar con mas de un jugador. Por otro lado el jugar solo tiene su parte satisfactoria al conseguir los objetivos que tenias propuestos pese a la dificultad que ya sabemos supone jugar en solitario, se siente mas el merito de haberlo conseguido por uno mismo.<br/>
             Otro punto a favor es que podes manejar tus tiempos en el juego y avanzar a tu ritmo.<br/>
             ahora, cuando hablamos de jugar en <strong>equipo</strong> todo cambia, las chances de sobrevivir aumentan, la cantidad de materiales recolectados aumenta considerablemente, asi como el tamano de la base y las posibilidades de ganar un PvP son muchisimas mas grandes. esta es la manera recomendada de jugar, todo va a depender de como te quieras divertir despues de todo es un videojuego!</p>
-            <div >
+            <div class="sizeImgBox">
                 <img src="imagenes/imagenNocheRust.jpg" alt="Imagen de equipo en la noche">
             </div>
             
         </section>
     </main>
-
-    <aside id="compra">    
-            <h5>Compra Rust!</h5>
-            <div id="imagenCompra">
-                <img src="imagenes/imgbin_steam-link-computer-icons-logo-png.png" alt="logo de Steam">
-            </div>
-            <p><a href="https://store.steampowered.com/app/252490/Rust/">Ir a Steam</a></p>
-    </aside>
 
     <footer id="footer">
         <ul class="menuAbajo">
