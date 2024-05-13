@@ -131,3 +131,37 @@ margin: 1rem;
     }
 }
     
+
+/* estilos para formulario*/
+
+#formulario{
+display: inline;
+width: 40rem;
+height: 30rem;
+margin: 2rem;
+}
+
+#fondoContacto{
+    background-color:rgb(104, 104, 104);
+    font-size: 1.7rem;
+
+}
+.datos{
+    padding: 1rem;
+}
+
+.datos:focus{
+    background-color: rgba(206, 65, 43, 0.836);;
+
+
+}
+
+#boton{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    ;
+}
+
+#infoCaja{
+    margin-top: 1rem;
+}
