@@ -52,7 +52,11 @@ html{
 
 a{
     text-decoration: none;
-    color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+}
+
+#tituloCompra{
+color: white;
 }
 
 a:hover{
@@ -85,7 +89,7 @@ margin: 1rem;
 
 #compra{
     background-color: rgba(206, 65, 43, 0.836);
-    height: 12rem;
+    height: 14rem;
     width: 12rem;
     border-radius: 1rem;
     margin-right: 5rem;
@@ -96,7 +100,8 @@ margin: 1rem;
 }
 
 #imagenCompra img{
-    height: 6rem;
+    height: 8rem;
+    margin-top: 1rem;
 }
 
 
@@ -139,6 +144,10 @@ display: inline;
 width: 40rem;
 height: 30rem;
 margin: 2rem;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 2rem;
 }
 
 #fondoContacto{
@@ -150,16 +159,27 @@ margin: 2rem;
     padding: 1rem;
 }
 
-.datos:focus{
-    background-color: rgba(206, 65, 43, 0.836);;
+.cajasFormulario:focus{
+    background-color: rgba(206, 65, 43, 0.836);
+}
 
-
+.cajasFormulario{
+    border-radius: 0.5rem;
 }
 
 #boton{
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-left: 1rem;
-    ;
+}
+
+#botonEnviar{
+    border: none;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+}
+#botonEnviar:hover{
+    background-color: rgba(206, 65, 43, 0.836);
 }
 
 #infoCaja{
