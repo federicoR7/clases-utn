@@ -49,7 +49,48 @@ html{
     font-style: normal;
     font-size: 3rem;
 }
+/* menu desplegable*/
+.menu ul{
+list-style: none;
+padding: 0;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li {
+    position: relative;
+    float: left;
+}
+.menu ul li:hover > ul {
+    display: block;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+  }
+  .menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(206, 65, 43, 0.836);
+  }
+  .menu ul ul li {
+    float: none;
+    width: 200px;
+  }
+  .menu ul ul a {
+    padding: 8px 10px;
+   
+  }
+  .subMenu{
+    color: white;
+  }
 
+
+
+
+
+/* aca termina el codigo de menu desplegable*/
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);

@@ -1,0 +1,91 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#CC3300), to(#FF9)); 
+    background: -moz-linear-gradient(top, #CC3300 , #FF9);    background: -o-linear-gradient(#CC3300,#FF9); 
+ }  
+.menu-general {
+    position: relative;    
+    float: left; 
+ }  
+
+ ul.nav {   
+     list-style: none;    
+     display: block;    
+     width: 200px;    
+     position: relative;    
+     top: 50px;    
+     left: 100px; 
+    padding: 60px 0 60px 0; 
+    -webkit-background-size: 50% 100%; 
+    -moz-background-size: 50% 100%; 
+    -o-background-size: 50% 100%; 
+ }
+ 
+ ul.nav li a { 
+    -webkit-transition: all 0.3s ease-out; 
+  -moz-transition: all 0.3s ease-out;    
+  -o-transition: all 0.3s ease-out;    
+  background: #f77e08;    
+  color: #174867;    
+  padding: 7px 15px 7px 15px;    
+  -webkit-border-radius: 10px;    
+  -moz-border-radius: 10px;    
+  border-radius: 10px;    
+  width: 100px;    
+  display: block;    
+  text-decoration: none; 
+  -webkit-box-shadow: 2px 2px 4px #0e169b;    
+  -moz-box-shadow: 2px 2px 4px #0e169b; 
+  box-shadow: 2px 2px 4px #0e169b; 
+ }  
+
+ ul.nav li a:hover {    
+    background: #faef77;    
+    color: #67a5cd; 
+    padding: 7px 15px 7px 30px; 
+ }  
+
+/* menu desplegable*/
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul ul {
+    display: none;
+  }
+  
+  .menu ul li {
+    position: relative;
+    float: left;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+  }
+  
+  .menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+  }
+  
+  .menu ul ul li {
+    float: none;
+    width: 200px;
+  }
+  
+  .menu ul ul a {
+    padding: 8px 10px;
+  }
+  
+ 
