@@ -86,10 +86,6 @@ padding: 0;
     color: white;
   }
 
-
-
-
-
 /* aca termina el codigo de menu desplegable*/
 a{
     text-decoration: none;
@@ -116,15 +112,28 @@ a:hover{
     margin: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    width: 50%;
-    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.384)
+    width: 20%;
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.384);
+    height: 20rem;
+    overflow: hidden;
+    
+
+
 }
 .cajas img{
-width: 50rem;
+width: 95%;
 border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
+width: 70%;
 margin: 1rem;
+}
 
+.cajas:hover{
+    width: 50%;
+    height: auto;
+    transition: all 1s;
+    
+    
 
 }
 
@@ -138,6 +147,10 @@ margin: 1rem;
     flex-direction: column;
     align-items: center;
     box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.384)
+}
+
+#compra:hover{
+    scale: 1.2;
 }
 
 #imagenCompra img{
