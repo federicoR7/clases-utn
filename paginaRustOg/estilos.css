@@ -5,19 +5,18 @@
 html{
     font-size: 62.5%;
 }
-
 .imgLogo{
     width: 100%;
 }
 .imgSteam{
-    width: 30%;
+    width: 20%;
 }
 .prueba{
     width: 100%;
     justify-content: space-around
 }
 .cajaLogo{
-    width: 40%;
+    width: 30%;
     display: inline-block;
 }
 .cajaSteam{
@@ -47,4 +46,20 @@ html{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+}
+#footer{
+    background-color: rgba(206, 65, 43, 0.836);
+
+}
+
+.menuAbajo{
+    list-style-type: none;
+
+}
+.menuAbajo a{
+    text-decoration: none;
+    color: black;
+}
+.altura{
+    height: 100vh;
 }
