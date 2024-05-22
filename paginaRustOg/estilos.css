@@ -37,7 +37,7 @@ html{
 }
 
 .bg-red{
-    background-color: rgba(206, 65, 43, 0.836);
+    background-color: rgb(206, 65, 43);
 }
 .prueba li ul li:hover a{
     background-color: rgba(184, 54, 34, 0.836);
@@ -48,7 +48,7 @@ html{
     margin-top: 2rem;
 }
 #footer{
-    background-color: rgba(206, 65, 43, 0.836);
+    background-color: rgb(206, 65, 43);
 
 }
 
