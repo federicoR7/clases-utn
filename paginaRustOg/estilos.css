@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.imgLogo{
+    width: 100%;
+}
+.imgSteam{
+    width: 30%;
+}
+.prueba{
+    width: 100%;
+    justify-content: space-around
+}
+.cajaLogo{
+    width: 40%;
+    display: inline-block;
+}
+.cajaSteam{
+    width: 20%;
+    display: inline-block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.bg-grey{
+    background-color: rgb(104, 104, 104);
+}
+
+.bg-red{
+    background-color: rgba(206, 65, 43, 0.836);
+}
+.prueba li ul li:hover a{
+    background-color: rgba(184, 54, 34, 0.836);
+}
+.cajaCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
