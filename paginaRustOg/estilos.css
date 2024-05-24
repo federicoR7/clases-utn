@@ -9,7 +9,7 @@ html{
     width: 100%;
 }
 .imgSteam{
-    width: 20%;
+    width: 100%;
 }
 .prueba{
     width: 100%;
@@ -20,13 +20,17 @@ html{
     display: inline-block;
 }
 .cajaSteam{
-    width: 20%;
+    width: 6%;
     display: inline-block;
     display: grid;
     align-items: center;
     justify-items: center;
+    margin-right: 2rem;
 }
-.header{
+.cajaSteam img:hover{
+    scale: 1.2;
+}
+#header{
     width: 100%;
     display: flex;
     justify-content: space-between
@@ -62,4 +66,8 @@ html{
 }
 .altura{
     height: 100vh;
+}
+
+.cajaRequisitos{
+    display: flex;
 }
