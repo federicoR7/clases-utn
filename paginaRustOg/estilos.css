@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.imgLogo{
+    width: 100%;
+}
+.imgSteam{
+    width: 100%;
+}
+.prueba1{
+    width: 100%;
+    justify-content: space-around
+}
+.cajaLogo{
+    width: 30%;
+    display: inline-block;
+}
+.cajaSteam{
+    width: 5%;
+    display: inline-block;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-right: 2rem;
+}
+.cajaSteam img:hover{
+    scale: 1.2;
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.bg-grey{
+    background-color: rgb(104, 104, 104);
+}
+
+.bg-red{
+    background-color: rgb(206, 65, 43);
+}
+.prueba li ul li:hover a{
+    background-color: rgba(184, 54, 34, 0.836);
+}
+.cajaCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.cajaExteriorCarousel{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-color: rgb(206, 65, 43);
+
+}
+
+.menuAbajo{
+    list-style-type: none;
+
+}
+.menuAbajo a{
+    text-decoration: none;
+    color: black;
+}
+.altura{
+    height: 100vh;
+}
+.cajaRequisitos{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    
+}
+.cajaTituloReque{
+    display: flex;
+}
+.cajaImgCompu{
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.cajaImgRequi{
+    padding-left: 0;
+    padding-right: 0;
+    width: 65%;
+   
+}
+
+.bg-fondo-reque{
+    background-color: rgb(71, 70, 70);
+}
+
+.card{
+    display: inline-block;
+}
+
+.cajaCartas{
+    display: flex;
+    justify-content: center;
+}
+
+.cajaCartasDos{
+display:flex;
+justify-content: center;
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+}
+
+.imgRequisitos{
+    width: 100%;
+}
+
+.cajaMayor{
+    width: 50%;
+}

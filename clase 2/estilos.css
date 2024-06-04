@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+    
+.rojo{
+    color:red
+}
+#verde{
+    color:black;
+    background-color: rgb(199, 177, 177);
+}
+#violeta{
+    color:blueviolet
+}
+.fuente-de-letras{
+    font-family: "Jacquard 24", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+    color:black;
+    background-color: rgb(199, 177, 177);    
+}
+.centrar{
+    text-align: center;
+}
+#listas{
+    margin:3rem;
+}
+#arriba{
+    background-image:url(https://as2.ftcdn.net/v2/jpg/03/73/58/95/1000_F_373589508_GlRml56OtZ8YTtri59pmvweCNVYczmR5.jpg);
+    background-size: cover;
+    
+
+}
+#h1centrado{
+    text-align: center;
+}

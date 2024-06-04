@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="fondoContacto">
+    <h1>contacto</h1>
+    <p>Rabanedo Federico.<br/>
+    Curso programador FullStack 2024
+    </p>
+
+   <fieldset id="formulario">
+    <legend> Formulario </legend>
+    <div id="infoCaja">
+        <h3>Completar el siguiente formulario.</h3>
+        <form action="https://formspree.io/f/xdoqjwaw" method="post">
+            <div class="datos">
+                <label for="nombre">Nombre</label></br>
+                <input type="text" name="nombre" class="cajasFormulario">
+            </div>
+            <div class="datos">
+                <label for="apellido">Apellido</label></br>
+                <input type="text" name="apellido" class="cajasFormulario">
+            </div>
+            <div class="datos">
+            <label for="talles">talles</label>
+                <select name="talles" class="cajasFormulario" >
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+            </div>
+            <div id="boton">
+                <input type="submit" value="Enviar" id="botonEnviar">
+            </div>
+        </form>
+    </div>
+</fieldset>
+    
+</body>
+</html>
