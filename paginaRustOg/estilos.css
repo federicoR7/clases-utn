@@ -11,7 +11,11 @@ html{
 .imgSteam{
     width: 100%;
 }
+<<<<<<< HEAD
 .prueba1{
+=======
+.prueba{
+>>>>>>> f92be2335fc3fcf568f81c1b7003738e342aa428
     width: 100%;
     justify-content: space-around
 }
@@ -20,7 +24,11 @@ html{
     display: inline-block;
 }
 .cajaSteam{
+<<<<<<< HEAD
     width: 5%;
+=======
+    width: 6%;
+>>>>>>> f92be2335fc3fcf568f81c1b7003738e342aa428
     display: inline-block;
     display: grid;
     align-items: center;
@@ -50,12 +58,15 @@ html{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+<<<<<<< HEAD
     width: 80%;
 }
 
 .cajaExteriorCarousel{
     display: flex;
     justify-content: center;
+=======
+>>>>>>> f92be2335fc3fcf568f81c1b7003738e342aa428
 }
 #footer{
     background-color: rgb(206, 65, 43);
@@ -73,6 +84,7 @@ html{
 .altura{
     height: 100vh;
 }
+<<<<<<< HEAD
 .cajaRequisitos{
     display: flex;
     justify-content: flex-start;
@@ -124,4 +136,9 @@ justify-content: center;
 
 .cajaMayor{
     width: 50%;
+=======
+
+.cajaRequisitos{
+    display: flex;
+>>>>>>> f92be2335fc3fcf568f81c1b7003738e342aa428
 }
