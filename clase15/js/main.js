@@ -6,7 +6,7 @@ while (pasos > 1){
 } if (pasos == 1){
     document.write("te queda ", pasos, " por caminar");
 }
-*/
+
 
 
 //ejercicio 1
@@ -19,11 +19,38 @@ let paresOImpares = numeros.map((numero) =>{
         console.log(numero, "es impar");
     }
 })
-/* 
-const parImpar = numeros.map((x)=> x % 2);
-if(parImpar == 0){
-    console.log(numeros, "es par");
-} else if(parImpar == 1){
-    
-}*/
+
+
+//ejercicio 2
+
+const nombres = ["fede", "matías", "fernando", "nico", "agus", "lautaro"]
+
+const nombresCortos = nombres.filter((cortos) => cortos.length <= 5);
+console.log(nombresCortos);
+*/
+
+//ejercicio 3
+
+const marketList = []
+
+let entrada = prompt("agregue su producto")
+
+const listItem = marketList.push(entrada)
+
+while(marketList.length ){
+    prompt("que más desea agregar?")
+}if(prompt = "nada"){
+    alert("esta es tu lista")
+}
+
+
+
+console.log(marketList);
+
+
+
+
+
+
+
 
