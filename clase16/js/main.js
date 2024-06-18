@@ -39,4 +39,8 @@ let cambiarEstiloBoton = document.querySelector('#cambiarEstilo')
 
 console.dir(document.body.childNodes)
 
+function cambiarTitulo(){
+    titulo
+}
+
 
