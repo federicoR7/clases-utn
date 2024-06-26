@@ -127,7 +127,7 @@ sepas.forEach(function(sepas, indice){
 sepas.forEach((sepas, indice) =>
     console.log("la sepa con forEach con funcio flecha es: ", sepas, indice))
 
-*/
+
 
 const numeros = [1, 2, 3, 4, 5, 6, 10];
 const porDos = numeros.map((x) => x*2);
@@ -136,3 +136,5 @@ const porCien = numeros.map((x) => x*100);
 console.log(numeros);
 console.log("por dos", porDos);
 console.log("por cien", porCien);
+*/
+
