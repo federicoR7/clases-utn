@@ -18,9 +18,13 @@ function largoNombre(nombre){
 }
 
 console.log(largoNombre ("federico"))
-*/
 
-/*
+
+
+
+
+
+
 let titulo = document.querySelector('h1')
 console.log(titulo)
 console.log(titulo.textContent)
@@ -42,7 +46,10 @@ console.dir(document.body.childNodes)
 function cambiarTitulo(){
     titulo
 }
+*/
 
+
+/*
 
 
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -92,7 +99,7 @@ function datos(nombre){
 
 let resultado = datos("vanesa");
 alert(resultado);
-*/
+
 
 let marketList = []
 
@@ -102,4 +109,15 @@ function addItems(){
 
 
 }
+
+*/
+
+function ejemplo (nombre){
+   return nombre.length
+}
+
+let laputamadre = ejemplo("federico");
+console.log(laputamadre);
+
+
 

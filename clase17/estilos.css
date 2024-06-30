@@ -1,6 +1,4 @@
-.boton{
-    background-color: rgb(144, 110, 175);
-    border: none;
-    border-radius: 10px;
-
+.adoptada{
+    text-decoration: line-through ;
+    color: blueviolet;
 }
